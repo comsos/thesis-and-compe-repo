@@ -1,10 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import CanvasComponent from './components/CanvasComponent';
+
+import tw from 'twrnc'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+    <View style={tw`bg-black mt-8 h-24 absolute`}>
+      <Text style={tw`text-white text-center my-6`}>INsight: A communicative, accessibility and environment sensing app for the blind.</Text>
+        <CanvasComponent/>
       <StatusBar style="auto" />
     </View>
   );
