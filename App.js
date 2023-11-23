@@ -7,7 +7,7 @@ import tw from 'twrnc'
 export default function App() {
   return (
     <View style={tw`bg-black mt-8 h-24 absolute`}>
-      <Text style={tw`text-white text-center my-6`}>INsight: A communicative, accessibility and environment sensing app for the blind.</Text>
+      <Text style={tw`text-white text-center my-6`}>INsight</Text>
         <CanvasComponent/>
       <StatusBar style="auto" />
     </View>
